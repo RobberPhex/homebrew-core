@@ -19,8 +19,7 @@ class SimpleObfs < Formula
   depends_on "libtool" => :build
   depends_on "xmlto" => :build
   depends_on "libev"
-  depends_on "libsodium"
-  depends_on "udns"
+  depends_on "c-ares"
 
   def install
     ENV["XML_CATALOG_FILES"] = etc/"xml/catalog"
